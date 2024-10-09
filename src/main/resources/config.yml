@@ -1,0 +1,15 @@
+# 提示信息，留空为禁用
+restricted-message: "&c该方块在此世界已被禁用"
+
+# 禁用的方块ID
+restricted-blocks:
+  - CRAFTING_TABLE
+  - DISPENSER
+  - HOPPER
+  - ANVIL
+
+# 禁用的世界，写all为所有世界
+restricted-worlds:
+  - world
+  - world_nether
+  - world_the_end

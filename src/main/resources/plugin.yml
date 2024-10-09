@@ -1,0 +1,17 @@
+main: com.puddingkc.KcBlockControl
+name: KcBlockControl
+version: 1.0.1
+api-version: "1.16"
+author: "PuddingKC"
+commands:
+  blockcontrol:
+    permission: kcblockcontrol.reload
+    aliases:
+      - "bc"
+      - "kcbc"
+      - "kcblockcontrol"
+permissions:
+  kcblockcontrol.bypass:
+    default: op
+  kcblockcontrol.reload:
+    default: op
