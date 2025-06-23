@@ -64,6 +64,6 @@ public class KcBlockControl extends JavaPlugin implements Listener {
         if (restrictedWorlds.contains("all")) {
             return restrictedBlocks.contains(material);
         }
-        return restrictedBlocks.contains(material) || restrictedWorlds.contains(worldName);
+        return restrictedBlocks.contains(material) && restrictedWorlds.contains(worldName);
     }
 }
